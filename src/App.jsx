@@ -1,7 +1,11 @@
-import React from "react";
+import SliderCourousel from "./components/SliderCourousel";
 
 function App() {
-  <h1>test asd!!!</h1>;
+  return (
+    <div className="flex ">
+      <SliderCourousel />
+    </div>
+  );
 }
 
 export default App;
